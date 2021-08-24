@@ -34,15 +34,16 @@
     margin-left:10px;
     margin-right:60px;
     border-radius:5px;
-    border:1px solid rgb(173, 192, 0);
+    border:1px solid #fff2f5;
     position:relative;
 }
 
 .skill > div > div {
     height:100%;
-    background:yellow;
     width:0;
-    transition:width 1s;
+    transition:width 4s;
+	border-radius: 40px;
+	background: #c56675;
 }
 
 .skill > div > article {
@@ -78,7 +79,8 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'Cute Font', cursive;
+	/* font-family: 'Gamja Flower', cursive; */
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -608,7 +610,6 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		color: inherit;
-		letter-spacing: -0.0325em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -619,7 +620,6 @@ input, select, textarea {
 	h2 {
 		font-size: 2.25em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -688,6 +688,7 @@ input, select, textarea {
 
 		.box.style2 {
 			padding: 3.5em 2.5em 3.5em 2.5em;
+			border-radius: 40px;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2319,10 +2320,11 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/two.jpeg"), url("../../images/two.jpeg");
+		/* background: url("images/two.jpeg"), url("../../images/two.jpeg"); */
 		background-size: 1500px 800px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		background-color: #ffecf0;
 	}
 
 /* Contact */
@@ -2368,3 +2370,7 @@ input, select, textarea {
 		
 
 		}
+
+
+
+		/* 말풍선 */
