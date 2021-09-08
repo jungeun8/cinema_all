@@ -108,3 +108,20 @@
 			}
 		}
 	}
+
+	/* 툴팁*/
+	@import "../node_modules/bootstrap/scss/bootstrap.scss";
+	
+	$tooltip-font-size:                 $font-size-lg;
+	$tooltip-max-width:                 200px;
+	$tooltip-color:                     $black;
+	$tooltip-bg:                        $white;
+	$tooltip-padding-y:                 $spacer * .25;
+	$tooltip-padding-x:                 $spacer * .5;
+	$tooltip-margin:                    0;
+
+	$tooltip-arrow-width:               .8rem;
+	$tooltip-arrow-height:              .4rem;
+	$tooltip-arrow-color:               $white;
+
+	

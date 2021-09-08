@@ -6,6 +6,15 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.tooltip{
+	font-size: 20px;
+
+}
+
+.tooltip-inner {
+	color:black;
+    background-color:#e591a3;
+}
 
 .iam{
 	margin-left: 70px;
@@ -52,16 +61,19 @@
     top:0;
 }
 
-.skill.active > div > div.skill-percent-80 {
-    width:80%;
-}
-
-.skill.active > div > div.skill-percent-90 {
-    width:90%;
+.skill.active > div > div.skill-percent-87 {
+    width:87%;
 }
 
 .skill.active > div > div.skill-percent-70 {
     width:70%;
+}
+
+.skill.active > div > div.skill-percent-83 {
+    width:83%;
+}
+.skill.active > div > div.skill-percent-85 {
+    width:85%;
 }
 
 html, body, div, span, applet, object,
@@ -78,7 +90,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 102%;
 	font-family: 'Cute Font', cursive;
 	/* font-family: 'Gamja Flower', cursive; */
 	vertical-align: baseline;}
@@ -94,7 +106,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+.project{	list-style: none;}
 blockquote, q {
 	quotes: none;
 }
@@ -2092,7 +2104,7 @@ input, select, textarea {
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 4em 0 6em 0;
 		}
 
 			.main.style3 .content > header {

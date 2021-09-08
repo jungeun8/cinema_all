@@ -111,7 +111,6 @@
 
 	// Section transitions.
 		if (browser.canUse('transition')) {
-
 			var on = function() {
 
 				// Galleries.
